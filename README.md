@@ -1,18 +1,17 @@
-#Portofolio Praktikum Pemrograman Web 1
-
+# Portofolio Praktikum Pemrograman Web 1
 Kumpulan tugas mata kuliah Praktikum Pemrograman Web 1 Program Studi TRPL — Semester 2 2026
 
-##Identitas
+## Identitas
 | Info  | Detail                    | 
 |-------|---------------------------| 
 | Nama  | Muhammad Naufal Fitriarto | 
 | NIM   | 25/5567748/SV/27252       | 
 | Prodi | TRPL                      | 
 
-##Demo Live
+## Demo Live
 https://nouv-ui.github.io/Portfolio/
 
-##Daftar Tugas
+## Daftar Tugas
 | Bab | Topik                | Folder             | 
 |-----|----------------------|--------------------| 
 | 01  | pretest              | -                  | 
