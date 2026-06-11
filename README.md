@@ -15,7 +15,7 @@ https://nouv-ui.github.io/Portfolio/
 ##Daftar Tugas
 | Bab | Topik                | Folder             | 
 |-----|----------------------|--------------------| 
-| 01  | pretest              | bab-01/            | 
+| 01  | pretest              | -                  | 
 | 02  | dasar-dasar HTML     | bab-02-dasar html/ |
 | 03  | link, frame, & tabel | bab-03-link, frame, dan tabel/ |
 | 04  | form dan graphic     | bab-04-form dan graphic/       |
@@ -27,4 +27,5 @@ https://nouv-ui.github.io/Portfolio/
 | 10  | JavaScript           | bab-10-javascript/ | 
 | 11  | PHP                  | bab-11-php/        |
 | 12  | crud php             | bab-12-crud php/   | 
-| 13  | pelengkap proyek             | bab-13-pelengkap proyek   |
+| 13  | pelengkap proyek             | (folder ini)   |
+| 14  | deployment             | -   |
