@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <fieldset>  
+        <legend>Formulir Pendataan Lengkap</legend>
+        <form oninput="hasil_kalkulasi.value = parseInt(angka1.value) + parseInt(angka2.value)">
+            
+            <p><strong>1. Contoh Select, Option, dan Optgroup:</strong></p>
+            <label for="mobil">Pilih Merk Mobil:</label>
+            <select id="mobil" name="mobil">
+                <optgroup label="Mobil Swedia">
+                    <option value="volvo">Volvo</option>
+                    <option value="saab">Saab</option>
+                </optgroup>
+                <optgroup label="Mobil Jerman">
+                    <option value="audi">Audi</option>
+                    <option value="bmw">BMW</option>
+                </optgroup>
+            </select>
+            <br><br>
+
+            <p><strong>2. Contoh Datalist:</strong></p>
+            <label for="browser_input">Pilih Browser (Bisa diketik atau dipilih):</label>
+            <input list="browsers" id="browser_input" name="browser_input">
+            
+            <datalist id="browsers">
+                <option value="Chrome">
+                <option value="Firefox">
+                <option value="Safari">
+                <option value="Edge">
+            </datalist>
+            <br><br>
+
+            <p><strong>3. Contoh Output:</strong></p>
+            <label>Kalkulator Sederhana:</label><br>
+            <input type="number" id="angka1" value="0"> + 
+            <input type="number" id="angka2" value="0"> = 
+            
+            <output name="hasil_kalkulasi" for="angka1 angka2">0</output>
+            <br><br>
+
+            <input type="submit" value="Kirim Data">
+        </form>
+    </fieldset>
+</body>
+</html>

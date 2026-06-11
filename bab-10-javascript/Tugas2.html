@@ -1,0 +1,44 @@
+<!-- Silahkan buat 1 file html yang isinya menampilkan output dari javascript 
+ yang dibuat menggunakan Fungsi console.log(), Fungsi alert(), Fungsi document.write(), 
+ dan innerHTML. (Isi teks html dan javascript bisa anda variasikan sendiri).  -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tugas 2 - Fungsi JS</title>
+    <script>
+        function tampilAlert() {
+            alert("Apakah anda yakin untuk submit jawaban?");
+        }
+    </script>
+</head>
+<body>
+    <h3>Tugas 2</h3>
+    <p>klik tombol dibawah untuk menampilkan alert yang disimpan dalam fungsi tampilAlert:</p>
+
+    <!-- Manggil function -->
+    <button onclick="tampilAlert()">Submit</button>
+
+    <p></p>
+
+    <div id="target-output">
+    </div>
+
+    <script>
+        // 1. Fungsi console.log() - Tampil di console browser (Inspect)
+        console.log("Ini adalah salah satu penggunaan console.log");
+
+        // 2. Fungsi alert() - Pop up notif
+        alert("Selamat datang di bab 10 tugas 2");
+
+        // 3. Fungsi document.write() - Menulis langsung ke HTML
+        document.write("<p>Ini paragraf baru hasil document.write()</p>");
+
+        // 4. Fungsi innerHTML - 
+        var lihat = document.getElementById("target-output");
+        lihat.innerHTML = "<p>Ini adalah paragraf yang dibuat menggunakan innerHTML. Teks ini disisipkan ke dalam div dengan ID 'target-output'</p>"
+    </script>
+</body>
+</html>

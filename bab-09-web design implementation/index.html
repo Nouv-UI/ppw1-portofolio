@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Portfolio</title>
+    
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> -->
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@400;500;700;800&display=swap" rel="stylesheet"> -->
+    <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@400;500;700;800&display=swap" rel="stylesheet">
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body class="bg-main">
+
+    <nav class="container mt-4 pt-2 sticky-navbar">
+        <div class="neo-navbar d-flex justify-content-between align-items-center px-4 py-3 bg-secondary-bg">
+            <div class="fw-bold fs-4">
+                <img src="assets/gambar/gambar_logomark.png" alt="Logo" class="img-fluid" style="height: 40px;">
+            </div>
+            <div id="neoNavMenu" class="text-h3 nav-links d-none d-md-flex gap-4 fw-bold">
+                <a href="#hero" class="text-dark text-decoration-none">Home</a>
+                <a href="#about" class="text-dark text-decoration-none">About</a>
+                <a href="#projects" class="text-dark text-decoration-none">Project</a>
+                <a href="#footer" class="text-dark text-decoration-none">Contact</a>
+            </div>
+            <button class="neo-navbar-toggler d-md-none fw-bold fs-4" aria-expanded="false" aria-controls="neoNavMenu" type="button">≡</button>
+        </div>
+    </nav>
+
+    <main>
+        <section id="hero" class="container text-center py-5 mt-5">
+            <span class="neo-badge bg-lime mb-4 d-inline-block" style="rotate: -3deg;">PORTFOLIO SHOWCASE 2026</span>
+            <h1 class="text-h1 text-uppercase mx-auto" style="max-width: 800px; line-height: 1.1;">
+                Design That Sticks.<br>
+                <span class="bg-black text-warning px-2 d-inline-block mt-2">Ideas That Sting.</span>
+            </h1>
+            <p class="text-p mt-4 mx-auto" style="max-width: 600px;">
+                <!-- Welcome to the showcase of bold digital craftsmanship. Explore a collection of works where raw aesthetics meet functional precision. -->
+                Welcome to my portfolio, where I build innovative and user-centric web solutions. Explore how I transform complex concepts into functional digital experiences.
+            </p>
+            
+            <div class="d-flex flex-column flex-md-row justify-content-center align-items-center gap-3 mt-5">
+                <a href="#about" class="neo-btn bg-yellow text-h3 text-decoration-none py-3 px-5 w-100 w-md-auto">EXPLORE PORTFOLIO</a>
+                <!-- <a href="#" class="fw-bold text-dark text-decoration-none text-h3 py-3 px-4">LEARN MORE ↓</a> -->
+            </div>
+        </section>
+
+        <hr class="neo-divider mt-5">
+
+        <section id="about" class="container py-5 my-5">
+            <div class="row align-items-center g-5">
+                <div class="col-md-6 order-2 order-md-1">
+                    <h2 class="text-h2 mb-3">Hello, My Name is Naufal!</h2>
+                    <p class="text-p mb-4">
+                        <!-- I am a multi-disciplinary creator focused on building high-impact digital experiences. My work sits at the intersection of raw brutality and modern usability. -->
+                        I am a Software Engineering Technology undergraduate student at Universitas Gadjah Mada (UGM). I have a strong interest in web design and development.
+                    </p>
+                    <p class="text-p mb-4">
+                        Outside of my programming projects, I stay engaged through campus organizations, and am a dedicated film enthusiast.
+                    </p>
+                    
+                    <h3 class="text-h3 fs-5 mb-3">Focused Skills</h3>
+                    <div class="d-flex flex-wrap gap-2">
+                        <span class="skill-tag bg-cyan">Graphic Design</span>
+                        <span class="skill-tag bg-green">UI/UX</span>
+                        <span class="skill-tag bg-red text-white">Content Writing</span>
+                        <span class="skill-tag bg-lime">Front End Development</span>
+                    </div>
+                </div>
+                
+                <div class="col-md-6 order-1 order-md-2">
+                    <div class="neo-image-wrapper">
+                                <div class="bg-secondary-bg border border-dark border-3 w-100 grayscale-img d-flex align-items-center justify-content-center profile-frame">
+                            <img src="assets/gambar/foto muka.png" alt="Foto Profil" class="img-fluid profile-photo">
+                        </div>
+                        <div class="neo-image-shadow bg-red"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <hr class="neo-divider">
+
+        <section id="projects" class="container py-5 my-5">
+            <div class="d-flex align-items-center mb-5">
+                <h2 class="text-h2 mb-0 me-4">HIGHLIGHTED PROJECTS</h2>
+                <div class="flex-grow-1 border-top border-dark border-3"></div>
+            </div>
+
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 align-items-stretch">
+                <!-- card 1 -->
+                <div id="card 1" class="col">
+                    <div class="neo-card h-100 d-flex flex-column bg-white">
+                        <div class="border-bottom-thick bg-secondary-bg d-flex align-items-center justify-content-center project-image-wrapper">
+                            <img src="assets/gambar/sampul buku.png" alt="Sampul Buku" class="project-image">
+                        </div>
+                        <div class="p-4 d-flex flex-column flex-grow-1">
+                            <span class="skill-tag bg-red text-white d-inline-block mb-3 align-self-start">Content Writing</span>
+                            <h3 class="text-h3 fs-5 text-uppercase mb-3">Biography: Perjalanan Tanpa Peta</h3>
+                            <!-- <p class="text-small mb-4 flex-grow-1">Implementation of content writing techniques through a self-authored biography to develop skills in crafting structured and meaningful narratives.</p> -->
+                            <p class="text-small mb-4 flex-grow-1">Implementation of content writing techniques through a self-authored biography titled "Perjalanan Tanpa Peta".</p>
+                            <a href="#card 1" class="neo-btn bg-yellow py-2 mt-auto text-decoration-none">PROJECT DETAIL</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- card 2 -->
+                <!-- card 3 -->
+
+                <div id="card 2" class="col">
+                    <div class="neo-card h-100 d-flex flex-column bg-white">
+                        <div class="border-bottom-thick bg-secondary-bg d-flex align-items-center justify-content-center project-image-wrapper">
+                            <img src="assets/gambar/web madu.png" alt="Web Madu" class="project-image">
+                        </div>
+                        <div class="p-4 d-flex flex-column flex-grow-1">
+                            <span class="skill-tag bg-green d-inline-block mb-3 align-self-start">UI/UX</span>
+                            <h3 class="text-h3 fs-5 text-uppercase mb-3">Website Penjualan Produk Madu</h3>
+                            <!-- <p class="text-small mb-4 flex-grow-1">Desain antarmuka modern dan ceria untuk e-commerce produk madu organik yang fokus pada konversi.</p> -->
+                            <p class="text-small mb-4 flex-grow-1">Implementation of UI/UX design principles to build an e-commerce website interface for honey products using Figma.</p>
+                            <a href="#card 2" class="neo-btn bg-yellow py-2 mt-auto text-decoration-none">PROJECT DETAIL</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="card 3" class="col">
+                    <div class="neo-card h-100 d-flex flex-column bg-white">
+                        <div class="border-bottom-thick bg-secondary-bg d-flex align-items-center justify-content-center project-image-wrapper">
+                            <img src="assets/gambar/sushi.png" alt="Poster Sushi" class="project-image">
+                        </div>
+                        <div class="p-4 d-flex flex-column flex-grow-1">
+                            <span class="skill-tag bg-cyan d-inline-block mb-3 align-self-start">Graphic Design</span>
+                            <h3 class="text-h3 fs-5 text-uppercase mb-3">Poster Promosi Sushi Restaurant</h3>
+                            <!-- <p class="text-small mb-4 flex-grow-1">Visual identitas berani yang menggabungkan elemen tradisional Jepang dengan estetika Neo-Brutalism.</p> -->
+                            <!-- <p class="text-small mb-4 flex-grow-1">Promotional poster designed for a sushi restaurant to build a strong, communicative, and visually engaging brand identity.</p> -->
+                            <p class="text-small mb-4 flex-grow-1">Application of graphic design principles in creating promotional materials for a sushi restaurant.</p>
+                            <a href="#card 3" class="neo-btn bg-yellow py-2 mt-auto text-decoration-none">PROJECT DETAIL</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+    </main>
+
+    <footer id="footer" class="bg-red text-white py-4 border-top border-dark border-3">
+        <div class="container d-flex flex-column flex-md-row justify-content-between align-items-center gap-3">
+            <div class="text-small fw-medium">
+                &copy; 2026 Muhammad Naufal Fitriarto. All Right Reserved
+            </div>
+            <div class="d-flex gap-4 fw-bold">
+                <a href="https://github.com/Nouv-UI" target="_blank" class="text-white text-decoration-none text-small">github</a>
+                <a href="https://www.instagram.com/naufal.idn" target="_blank" class="text-white text-decoration-none text-small">instagram</a>
+                <a href="https://www.linkedin.com/in/mnaufalfit" target="_blank" class="text-white text-decoration-none text-small">linkedin</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        const toggler = document.querySelector('.neo-navbar-toggler');
+        const navMenu = document.getElementById('neoNavMenu');
+        toggler?.addEventListener('click', () => {
+            if (!navMenu) return;
+            navMenu.classList.toggle('d-none');
+            const expanded = !navMenu.classList.contains('d-none');
+            toggler.setAttribute('aria-expanded', expanded.toString());
+        });
+    </script>
+</body>
+</html>

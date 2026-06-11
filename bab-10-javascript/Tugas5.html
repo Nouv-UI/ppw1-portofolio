@@ -1,0 +1,67 @@
+<!-- Kalkulator sederhana, mekanisme kalkulatornya sesuai kreasi anda. -->
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tugas 5 - Kalkulator</title>
+ </head>
+ <body>
+    <main>
+        <h3>Kalkulator</h3>
+        
+        <input type="number" id="angka1" placeholder="Masukkan Angka Pertama">
+        
+        <select id="operator">
+            <option value="+">Tambah (+)</option>
+            <option value="-">Kurang (-)</option>
+            <option value="*">Kali (*)</option>
+            <option value="/">Bagi (/)</option>
+        </select>
+
+        <input type="number" id="angka2" placeholder="Masukkan Angka Kedua">
+        
+        <button onclick="hitung()">Hitung</button>
+
+        <div class="hasil-box" id="hasilKal">Hasil: 0</div>
+    </main>
+    <script>
+        function hitung() {
+            // Ambil nilai dari input HTML
+            let a1 = parseFloat(document.getElementById("angka1").value);
+            let a2 = parseFloat(document.getElementById("angka2").value);
+            let op = document.getElementById("operator").value;
+            let hasil = 0;
+
+            // Validasi input kosong
+            if (isNaN(a1) || isNaN(a2)) {
+                alert("Harap masukkan kedua angka!");
+                return;
+            }
+
+            // Logika kalkulator
+            switch (op) {
+                case "+":
+                    hasil = a1 + a2;
+                    break;
+                case "-":
+                    hasil = a1 - a2;
+                    break;
+                case "*":
+                    hasil = a1 * a2;
+                    break;
+                case "/":
+                    if (a2 === 0) {
+                        hasil = "Error: Dibagi Nol";
+                    } else {
+                        hasil = a1 / a2;
+                    }
+                    break;
+            }
+
+            // Tampilkan hasil ke div
+            document.getElementById("hasilKal").innerText = "Hasil: " + hasil;
+        }
+    </script>
+ </body>
+ </html>

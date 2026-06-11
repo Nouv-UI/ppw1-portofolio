@@ -1,0 +1,32 @@
+<!-- Tulis code yg berisikan javascript berisikan prompt() meminta input 2 bilangan. 
+Kemudian buat cek kondisi kedua bilangan tersebut. Tampilkan hasilnya. 
+EX: BILANGAN KE-1 LEBIH BESAR DARI BILANGAN KE-2  -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tugas 3 - Input bilangan</title>
+</head>
+<body>
+    <h3>Cek Kondisi Kedua Bilangan</h3>
+    <p>Berikut adalah hasil dari kondisi kedua bilangan: </p>
+    <hr>
+
+    <script>
+        let angka1 = Number(prompt("Masukkan angka pertama: "));
+        let angka2 = Number(prompt("Masukkan angka kedua: "));
+
+        if (angka1 > angka2) {
+            document.write("BILANGAN KE-1 LEBIH BESAR DARI BILANGAN KE-2 <br>");
+            document.write(angka1, " > ", angka2);
+        } else if (angka1 < angka2) {
+            document.write("BILANGAN KE-1 LEBIH KECIL DARI BILANGAN KE-2 <br>");
+            document.write(angka1, " < ", angka2);
+        } else {
+            document.write("KEDUA BILANGAN BERNILAI SAMA");
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contoh Halaman Semantik HTML5</title>
+</head>
+<body>
+
+    <header>
+        <h1>Semantic Web</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Beranda</a></li>
+                <li><a href="#artikel">Artikel</a></li>
+                <li><a href="#kontak">Kontak</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        
+        <article id="artikel">
+            <h2>Panduan Memahami Tag Semantik</h2>
+            <p>Tanggal: <time datetime="2026-03-03">3 Maret 2026</time></p>
+            
+            <p>Tag semantik sangat krusial untuk meningkatkan <mark>SEO dan Aksesibilitas (Screen Reader)</mark> pada website modern.</p>
+
+            <figure>
+                <img src="https://www.w3schools.com/html/img_sem_elements.gif" alt="Ilustrasi Struktur HTML">
+                <figcaption>Gambar 1: Contoh ilustrasi struktur dasar web.</figcaption>
+            </figure>
+
+            <details>
+                <summary>Klik untuk melihat tips tambahan</summary>
+                <p>Tips: Hayoo</p>
+            </details>
+        </article>
+
+        <hr>
+
+        <section id="kontak">
+            <h2>Ikuti Newsletter Kami</h2>
+            <p>Dapatkan update artikel terbaru langsung di email Anda.</p>
+        </section>
+
+    </main>
+
+    <aside>
+        <h3>Artikel Terpopuler</h3>
+        <ul>
+            <li><a href="#">Cara Mudah Belajar CSS Grid</a></li>
+            <li><a href="#">Berkenalan dengan JavaScript Modern</a></li>
+        </ul>
+    </aside>
+
+    <dialog id="pesanSapaan">
+        <h2>Halo!</h2>
+        <p>Welcome to Semantic Web Structure</p>
+        <form method="dialog">
+            <button>Tutup</button>
+        </form>
+    </dialog>
+
+    <footer>
+        <p>&copy; 2026 Semantic Web Structure. Dibuat oleh NouV</p>
+    </footer>
+
+    <script>
+        const dialog = document.getElementById('pesanSapaan');
+        dialog.showModal(); 
+    </script>
+
+</body>
+</html>

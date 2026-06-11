@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        a {
+            text-decoration: none;
+        }
+
+        body {
+            padding: 20px;
+        }
+
+        header {
+            background-color: bisque;
+            display: flex;
+            align-items: center;
+        }
+
+        nav {
+            display: flex;
+            padding-left: 60px;
+            gap: 60px;
+        }
+
+        .container {
+            display: flex;
+            min-height: 80vh;
+        }
+
+        .sidebar {
+            width: 250px;
+            background-color: antiquewhite;
+            color: black;
+            padding: 20px;
+        }
+
+        .sidebar ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .sidebar ul li {
+            padding: 15px 0;
+            border-bottom: 1px solid #34495e;
+        }
+
+        .sidebar ul li a {
+            color: black;
+            text-decoration: none;
+        }
+
+        .content {
+            flex: 1;
+            padding: 20px;
+        }
+
+        table {
+            width: 50%;
+            border-collapse: collapse;
+            margin: auto;
+        }
+
+        th {
+            background-color: antiquewhite;
+        }
+
+        th, td {
+            text-align: left; 
+            border: 1px solid rgb(225, 219, 214);
+            padding: 8px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h2>RicoShop</h2>
+        <nav>
+            <a href="#Home">Home</a>
+            <a href="tabel.html">Tabel</a>
+            <a href="#Article">Article</Article></a>
+        </nav>
+    </header>
+
+    <div class="container">
+        <main class="content">
+            <section>
+                
+                <table id="Tabel">
+                    <h2>Tabel Nama & Usia</h2>
+                    <thead>
+                        <tr>
+                            <th>Nama</th>
+                            <th>Usia</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>naufal</td>
+                            <td>17</td>
+                        </tr>
+                    </tbody>
+                </table>
+                
+                <article id="Article">
+                    <h2>Panduan Memahami Tag Semantik</h2>
+                    <p>Tanggal: <time datetime="2026-03-03">3 Maret 2026</time></p>
+                
+                    <p>Tag semantik sangat krusial untuk meningkatkan <mark>SEO dan Aksesibilitas (Screen Reader)</mark> pada website modern.</p>
+                </article>
+
+                <article id="Article2">
+                    <h2>Lorem Ipsum </h2>
+                
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                </article>
+            </section>
+        </main>
+    
+        <aside class="sidebar">
+            <h2>Menu</h2>
+            <ul>
+                <li><a href="#">Article 1: Pentingnya tag Semantic</a></li>
+                <li><a href="#">Article 2: Lorem Ipsum</a></li>
+                <li><a href="#">Article 3: Lorem Ipsum</a></li>
+            </ul>
+        </aside>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 Semantic Web Structure. Dibuat oleh Naufal</p>
+        <time datetime="2026-03-03">3 Maret 2026</time>
+    </footer>
+
+</body>
+</html>

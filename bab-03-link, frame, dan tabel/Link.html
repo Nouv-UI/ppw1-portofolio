@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Implementasi Dasar Tautan HTML</title>
+</head>
+<body>
+
+    <h2>Contoh Implementasi Tautan (Links)</h2>
+    <hr>
+
+    <h3>1. Tautan dengan URL Absolut</h3>
+    <p>Mengarahkan navigasi ke situs web eksternal yang memiliki alamat lengkap.</p>
+    <p><a href="https://www.w3schools.com/">Kunjungi W3Schools</a></p>
+
+    <h3>2. Tautan dengan URL Relatif</h3>
+    <p>Mengarahkan navigasi ke halaman lain yang masih berada di dalam direktori situs web yang sama.</p>
+    <p><a href="/tentang-kami.html">Baca Halaman Tentang Kami</a></p>
+
+    <h3>3. Tautan dengan Atribut Target</h3>
+    <p>Atribut <code>target="_blank"</code> memaksa peramban untuk membuka alamat tujuan di tab atau jendela baru.</p>
+    <p><a href="https://www.google.com/" target="_blank">Buka Mesin Pencari Google (Tab Baru)</a></p>
+
+    <h3>4. Tautan dengan Atribut Title</h3>
+    <p>Menampilkan kotak teks kecil (tooltip) saat kursor tetikus (mouse) ditahan di atas teks tautan.</p>
+    <p><a href="https://www.wikipedia.org/" title="Menuju ke Halaman Utama Ensiklopedia Bebas Wikipedia">Kunjungi Wikipedia</a></p>
+
+    <h3>5. Gambar sebagai Tautan</h3>
+    <p>Elemen gambar dibungkus dengan tag anchor sehingga area gambar dapat diklik.</p>
+    <a href="https://www.w3schools.com/html/">
+        <img src="https://www.w3schools.com/html/pic_html5.gif" alt="Logo HTML5" width="100" height="100">
+    </a>
+
+    <h3>6. Tautan Alamat Email (Mailto)</h3>
+    <p>Memicu peluncuran program pengelola surel (email) bawaan pada sistem operasi untuk mengirim pesan baru.</p>
+    <p><a href="mailto:kontak@domain.com">Kirim Surel ke Admin</a></p>
+
+    <h3>7. Tombol sebagai Tautan</h3>
+    <p>Menggunakan elemen <code>&lt;button&gt;</code> yang dikombinasikan dengan sedikit atribut JavaScript untuk melakukan navigasi URL.</p>
+    <button onclick="document.location='https://www.w3schools.com/'">Klik Tombol Navigasi Ini</button>
+
+</body>
+</html>

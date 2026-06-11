@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dashboard Nilai</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined"/>
+</head>
+
+<body class="bg-light">
+    <div class="container py-5">
+        <header class="mb-4">
+            <div class="card border-0 shadow-sm">
+                <div class="card-body p-4">
+                    <div class="row align-items-center">
+                        <div class="col-md-3 text-center text-md-start mb-3 mb-md-0">
+                            <img src="https://musicaddicts.my/wp-content/uploads/2022/11/poster.jpeg"
+                                alt="Foto Mahasiswa" class="rounded-circle img-fluid" style="max-width: 130px;" />
+                        </div>
+                        <div class="col-md-9">
+                            <h1 class="h4 mb-1">Muhammad Naufal Fitriarto</h1>
+                            <p class="mb-1 text-muted">Program Studi: Teknologi Rekayasa Perangkat Lunak</p>
+                            <p class="mb-1 text-muted">NIM: 25/567748/SV/27252</p>
+                            <span class="badge bg-success py-2 px-3">Aktif</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <section class="mb-4">
+            <div class="row g-3">
+                <div class="col-md-4">
+                    <div class="card h-100 shadow-sm border-0">
+                        <div class="card-body">
+                            <div class="d-flex align-items-center mb-3">
+                                <span class="material-symbols-outlined">assignment</span>
+                                <div class="ms-3">
+                                    <p class="text-uppercase text-muted small mb-1">Total SKS</p>
+                                    <h3 class="mb-0">20</h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card h-100 shadow-sm border-0">
+                        <div class="card-body">
+                            <div class="d-flex align-items-center mb-3">
+                                <span class="material-symbols-outlined">bar_chart</span>
+                                <div class="ms-3">
+                                    <p class="text-uppercase text-muted small mb-1">IPK</p>
+                                    <h3 class="mb-0">3.72/4.00</h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card h-100 shadow-sm border-0">
+                        <div class="card-body">
+                            <div class="d-flex align-items-center mb-3">
+                                <span class="material-symbols-outlined fs-3">school</span>
+                                <div class="ms-3">
+                                    <p class="text-uppercase text-muted small mb-1">Mata Kuliah Lulus</p>
+                                    <h3 class="mb-0">10/10</h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="card shadow-sm border-0">
+                <div class="card-body p-4">
+                    <div
+                        class="d-flex flex-column flex-md-row justify-content-between align-items-start align-items-md-center mb-3">
+                        <div>
+                            <h2 class="h5 mb-1">Kartu Hasil Studi</h2>
+                            <p class="text-muted mb-0">Kartu Hasil Studi Semester Gasal 2025/2026.</p>
+                        </div>
+                    </div>
+
+                    <div class="table-responsive">
+                        <table class="table table-hover align-middle">
+                            <thead class="table-light">
+                                <tr>
+                                    <th scope="col">No</th>
+                                    <th scope="col">Mata Kuliah</th>
+                                    <th scope="col">SKS</th>
+                                    <th scope="col">Nilai Huruf</th>
+                                    <th scope="col">Nilai Angka</th>
+                                    <th scope="col">Aksi</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <th scope="row">1</th>
+                                    <td>Praktikum Desain Elementer</td>
+                                    <td>2</td>
+                                    <td><span class="badge bg-success">A</span></td>
+                                    <td>4.00</td>
+                                    <td>
+                                        <button type="button" class="btn btn-outline-secondary btn-sm"
+                                            data-bs-toggle="modal" data-bs-target="#detailModal"
+                                            data-course="Praktikum Desain Elementer"
+                                            data-desc="Mempelajari konsep dasar desain pada aplikasi dan website."
+                                            data-sks="2" data-letter="A" data-grade="4.00"
+                                            data-instructor="Yusron Fuadi, S.Sn., M.Sn." data-status="Lulus">
+                                            Detail
+                                        </button>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">2</th>
+                                    <td>Pengantar Teknologi Informasi</td>
+                                    <td>2</td>
+                                    <td><span class="badge bg-success">A</span></td>
+                                    <td>4.00</td>
+                                    <td>
+                                        <button type="button" class="btn btn-outline-secondary btn-sm"
+                                            data-bs-toggle="modal" data-bs-target="#detailModal"
+                                            data-course="Pengantar Teknologi Informasi"
+                                            data-desc="Mempelajari konsep dasar teknologi informasi dan aplikasinya dalam dunia industri."
+                                            data-sks="2" data-letter="A" data-grade="4.00"
+                                            data-instructor="Dr. Siti Aminah" data-status="Lulus">
+                                            Detail
+                                        </button>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">3</th>
+                                    <td>Matematika Diskrit</td>
+                                    <td>2</td>
+                                    <td><span class="badge bg-primary">B</span></td>
+                                    <td>3.00</td>
+                                    <td>
+                                        <button type="button" class="btn btn-outline-secondary btn-sm"
+                                            data-bs-toggle="modal" data-bs-target="#detailModal"
+                                            data-course="Matematika Diskrit"
+                                            data-desc="Membangun dasar teori himpunan, relasi, fungsi, dan logika matematika untuk komputasi."
+                                            data-sks="2" data-letter="B" data-grade="3.00"
+                                            data-instructor="Prof. Ari Wibowo" data-status="Lulus">
+                                            Detail
+                                        </button>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">4</th>
+                                    <td>Bahasa Inggris 1</td>
+                                    <td>2</td>
+                                    <td><span class="badge bg-success">A+</span></td>
+                                    <td>4.00</td>
+                                    <td>
+                                        <button type="button" class="btn btn-outline-secondary btn-sm"
+                                            data-bs-toggle="modal" data-bs-target="#detailModal"
+                                            data-course="Bahasa Inggris 1"
+                                            data-desc="Mempelajari keterampilan bahasa Inggris dalam konteks akademik dan teknis."
+                                            data-sks="2" data-letter="A+" data-grade="4.00"
+                                            data-instructor="Siska Handayani" data-status="Lulus">
+                                            Detail
+                                        </button>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">5</th>
+                                    <td>Basis Data</td>
+                                    <td>2</td>
+                                    <td><span class="badge bg-warning text-dark">C</span></td>
+                                    <td>2.00</td>
+                                    <td>
+                                        <button type="button" class="btn btn-outline-secondary btn-sm"
+                                            data-bs-toggle="modal" data-bs-target="#detailModal"
+                                            data-course="Basis Data"
+                                            data-desc="Mempelajari konsep dasar basis data dan sistem manajemen basis data."
+                                            data-sks="2" data-letter="C" data-grade="2.00"
+                                            data-instructor="Ir. Yanti Putri" data-status="Lulus">
+                                            Detail
+                                        </button>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">6</th>
+                                    <td>Bahasa Indonesia</td>
+                                    <td>2</td>
+                                    <td><span class="badge bg-primary">B</span></td>
+                                    <td>3.00</td>
+                                    <td>
+                                        <button type="button" class="btn btn-outline-secondary btn-sm"
+                                            data-bs-toggle="modal" data-bs-target="#detailModal"
+                                            data-course="Bahasa Indonesia"
+                                            data-desc="Fokus pada keterampilan bahasa Indonesia akademik dan teknis untuk dunia teknologi."
+                                            data-sks="2" data-letter="B" data-grade="3.00"
+                                            data-instructor="Siska Handayani" data-status="Lulus">
+                                            Detail
+                                        </button>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">7</th>
+                                    <td>Pendidikan Kewarganegaraan</td>
+                                    <td>2</td>
+                                    <td><span class="badge bg-danger">D</span></td>
+                                    <td>1.00</td>
+                                    <td>
+                                        <button type="button" class="btn btn-outline-secondary btn-sm"
+                                            data-bs-toggle="modal" data-bs-target="#detailModal"
+                                            data-course="Pendidikan Kewarganegaraan"
+                                            data-desc="Materi mengenai nilai dasar Pancasila, kewarganegaraan, dan etika sosial."
+                                            data-sks="2" data-letter="D" data-grade="1.00"
+                                            data-instructor="Drs. H. Nurhadi" data-status="Perlu Perbaikan">
+                                            Detail
+                                        </button>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <div class="modal fade" id="detailModal" tabindex="-1" aria-labelledby="detailModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="detailModalLabel">Detail Mata Kuliah</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Tutup"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="mb-3">
+                        <h6 class="mb-2" id="modalCourseName">Nama Mata Kuliah</h6>
+                        <p class="text-muted mb-0" id="modalCourseDesc">Deskripsi singkat mata kuliah akan tampil di
+                            sini.</p>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item"><strong>SKS:</strong> <span id="modalCourseSks">-</span></li>
+                        <li class="list-group-item"><strong>Nilai Huruf:</strong> <span id="modalCourseLetter">-</span>
+                        </li>
+                        <li class="list-group-item"><strong>Nilai Angka:</strong> <span id="modalCourseGrade">-</span>
+                        </li>
+                        <li class="list-group-item"><strong>Dosen:</strong> <span id="modalCourseInstructor">-</span>
+                        </li>
+                        <li class="list-group-item"><strong>Status:</strong> <span id="modalCourseStatus">-</span></li>
+                    </ul>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Tutup</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        const detailModal = document.getElementById('detailModal');
+        detailModal.addEventListener('show.bs.modal', event => {
+            const button = event.relatedTarget;
+            const course = button.getAttribute('data-course');
+            const desc = button.getAttribute('data-desc');
+            const sks = button.getAttribute('data-sks');
+            const letter = button.getAttribute('data-letter');
+            const grade = button.getAttribute('data-grade');
+            const instructor = button.getAttribute('data-instructor');
+            const status = button.getAttribute('data-status');
+
+            document.getElementById('detailModalLabel').textContent = `Detail: ${course}`;
+            document.getElementById('modalCourseName').textContent = course;
+            document.getElementById('modalCourseDesc').textContent = desc;
+            document.getElementById('modalCourseSks').textContent = sks;
+            document.getElementById('modalCourseLetter').textContent = letter;
+            document.getElementById('modalCourseGrade').textContent = grade;
+            document.getElementById('modalCourseInstructor').textContent = instructor;
+            document.getElementById('modalCourseStatus').textContent = status;
+        });
+    </script>
+</body>
+
+</html>
