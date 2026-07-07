@@ -1,5 +1,5 @@
 # Portofolio Praktikum Pemrograman Web 1
-Kumpulan tugas mata kuliah Praktikum Pemrograman Web 1 Program Studi TRPL — Semester 2 2026
+Kumpulan tugas mata kuliah Praktikum Pemrograman Web 1 Program Studi Teknologi Rekayasa Perangkat Lunak Semester 2 tahun 2026
 
 ## Identitas
 | Info  | Detail                    | 
@@ -27,4 +27,3 @@ https://nouv-ui.github.io/Portfolio/
 | 11  | PHP                  | bab-11-php/        |
 | 12  | crud php             | bab-12-crud php/   | 
 | 13  | pelengkap proyek             | (folder ini)   |
-| 14  | deployment             | -   |
