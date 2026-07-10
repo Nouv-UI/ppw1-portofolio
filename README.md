@@ -9,6 +9,7 @@ Kumpulan tugas mata kuliah Praktikum Pemrograman Web 1 Program Studi Teknologi R
 | Prodi | TRPL                      | 
 
 ## Demo Live
+Akses Portofolio melalui link berikut:
 https://nouv-ui.github.io/Portfolio/
 
 ## Daftar Tugas
